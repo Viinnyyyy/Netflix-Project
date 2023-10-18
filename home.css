@@ -84,3 +84,38 @@ select {
     margin-top: 30px;
     overflow: hidden;
 }
+
+.email-signup input {
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+}
+
+.email-signup button {
+    background: #db0001;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 30px;
+}
+
+.loop-video {
+    background-image: url(media/tv.png);
+    background-repeat: no-repeat;
+
+}
+
+.video-column {
+    align-items: center;
+}
+
+/* .tv-background {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+} */
