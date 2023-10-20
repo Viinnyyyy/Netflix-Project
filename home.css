@@ -78,7 +78,7 @@ select {
 
 .email-signup {
     background: #fff;
-    border-radius: 4px;
+    border-radius: 40px;
     display: flex;
     align-items: center;
     margin-top: 30px;
@@ -102,20 +102,39 @@ select {
     padding: 15px 30px;
 }
 
-.loop-video {
+/* .loop-video {
     background-image: url(media/tv.png);
     background-repeat: no-repeat;
 
 }
 
-.video-column {
+.video-col img {
+    float: inherit;
+} */
+
+/* .video-col {
+    float: inherit;
+    position: relative;
     align-items: center;
 }
 
-/* .tv-background {
-    z-index: -1;
+.video-col img {
+    max-width: 100%;
+}
+ */
+
+
+.video-col {
+    background: url(media/tv.png) no-repeat top left transparent;
+    position: relative;
+    width: 400px;
+    height: 300px;
+    color: #db0001;
+}
+
+.video-col video {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-} */
+    top: 30px;
+    left: 40px;
+    color: blue;
+}
