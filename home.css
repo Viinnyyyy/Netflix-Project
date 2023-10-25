@@ -78,8 +78,8 @@ select {
 }
 
 .email-signup {
-    background: #fff;
-    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.027) ;
+    border-radius: 4px;
     display: flex;
     align-items: center;
     margin-top: 30px;
@@ -88,9 +88,11 @@ select {
 
 .email-signup input {
     flex: 1;
-    border: 0;
+    border: 1px ;
     outline: 0;
     margin-left: 20px;
+    color: #fff;
+    background: rgb(255, 255, 255, 0);
 }
 
 .email-signup button {
@@ -138,6 +140,12 @@ select {
     margin-bottom: 20px;
 }
 
+.text-column h2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
 .video-col {
     float: inherit;
     position: relative;
@@ -157,13 +165,25 @@ select {
     height: 263px;
 }
 
+.overlay downloader-icon {
+    border: 1px solid red;
+    left 
+}
+
 .video-col video {
     position: relative;
     top: 95px;
-    left: 30px;
+    left: 34px;
     color: red;
     z-index: -1;
     align-items: center;
     display: block;
     width: 90%;
 }
+
+
+.second-section {
+    height: 480px; 
+    border: 1px solid red;
+}
+
