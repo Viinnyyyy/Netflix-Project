@@ -157,10 +157,6 @@ select {
     height: 480px; 
 }
 
-.video-col {
-
-}
-
 .loop-video {
     height: 263px;
 }
@@ -301,5 +297,23 @@ input[type="radio"] {
 .footer .row {
     align-items: flex-start;
     padding: 10px 0;
+}
 
+.footer .language-button {
+    color: #fff;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 12px;
+    margin-left: 10px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid red;
+}
+
+
+.footer .language-button img {
+    background: #fff;
+    padding-left: ;
 }
