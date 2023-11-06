@@ -78,7 +78,7 @@ select {
 }
 
 .email-signup {
-    background-color: rgba(255, 255, 255, 0.027) ;
+    background-color: #fff ;
     border-radius: 4px;
     display: flex;
     align-items: center;
@@ -92,7 +92,7 @@ select {
     outline: 0;
     margin-left: 20px;
     color: #fff;
-    background: rgb(255, 255, 255, 0);
+    background: rgb(255, 255, 255);
 }
 
 .email-signup button {
@@ -152,7 +152,7 @@ select {
     align-items: center;
     flex-basis: 50%;
     margin-bottom: 20px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background: url(media/tv.png) no-repeat center transparent;
     height: 480px; 
 }
